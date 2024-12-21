@@ -1,0 +1,72 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: crimson; 
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+   color: #fff;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+   color: chartreuse;
+}
+.password{
+    position: relative;
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.password .passwordContainer{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+    border: none;
+    pointer-events: none;
+}
+.password i{
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color:rgb(28, 219, 28);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
